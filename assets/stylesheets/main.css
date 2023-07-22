@@ -80,6 +80,30 @@ h1, h3, h4, h5, p {
 	margin-bottom: 22px;
 }
 
+h1 {
+	font-size: 36px;
+	line-height: 44px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 44px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	color: #a9b2b9;
+	font-size: 14px;
+	font-weight: 400;
+}
+
 /*
 Buttons ----------------
 */
@@ -100,7 +124,14 @@ Home -------------------
 */
 
 .hero {
+	line-height: 44px;
 	padding: 22px 80px 66px 80px;
+}
+.hero h2 {
+	font-size: 36px;
+}
+.hero p {
+	font-size: 24px;
 }
 
 /*
@@ -129,6 +160,13 @@ Primary Header  ---------------
 	border-top: 4px solid #648880;
 	padding: 40px 0 22px 0;
 	float: left;
+	font-size: 48px;
+	line-height: 44px;
+	padding: 40px 0 22px 0;
+}
+
+.tagline {
+	margin: 66px 0 22px 0;
 }
 
 /*
@@ -137,11 +175,20 @@ Primary Footer
 
 .primary-footer small {
 	float: left;
+	font-weight: 400;
 }
 
 .primary-footer {
 	padding-bottom: 44px;
 	padding-top: 44px;
+	color: #648880;
+	font-size: 14px;
+}
+
+
+.primary-nav {
+	font-size: 14px;
+	font-weight: 400
 }
 
 .col-1-3,
@@ -162,4 +209,39 @@ Primary Footer
 .col-2-3 {
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+
+.teaser a:hover h3 {
+	color: red;
+}
+
+/* 
+Custom Styles --------------------
+*/
+
+.body {
+	color: 888;
+	font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+strong {
+	font-weight: 400;
+}
+
+cite, em {
+	font-style: italic;
+}
+
+
+/*
+Links ---------------
+*/
+
+a:hover {
+	color: #a9b2b9;
+}
+
+a {
+	color: #648880;
 }
